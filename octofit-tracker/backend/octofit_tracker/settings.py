@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-e$2xa5=me-yrf$(5wur83^xkf7z3x_b+sw22awt@&rb&8x6qxg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'musical-engine-p794v6x9r57fr9vg-8000.app.github.dev']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",
     "octofit_tracker",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
