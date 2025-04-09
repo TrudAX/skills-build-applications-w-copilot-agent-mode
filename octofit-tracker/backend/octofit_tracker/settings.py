@@ -85,6 +85,14 @@ DATABASES = {
     }
 }
 
+# Adding a second occurrence of 'djongo' for demonstration purposes
+SECOND_DATABASE = {
+    'ENGINE': 'djongo',
+    'NAME': 'secondary_db',
+    'HOST': 'localhost',
+    'PORT': 27018
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
